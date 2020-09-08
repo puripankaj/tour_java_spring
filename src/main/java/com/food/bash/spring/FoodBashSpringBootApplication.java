@@ -14,6 +14,7 @@ public class FoodBashSpringBootApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	   String home() {
+		//return welcome message
 	      return "Welcome FoodBash!";
 	   }
 	
